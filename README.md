@@ -1,1 +1,1 @@
-This repo is my replication of The Net Ninja's ![Tailwind CSS tutorial playlist](https://www.youtube.com/watch?v=bxmDnn7lrnk&list=PL4cUxeGkcC9gpXORlEHjc5bgnIi5HEGhw&ab_channel=TheNetNinja) on Youtube, as practice.
+This repo is my practice replication of Traversy Media's ![Tailwind CSS tutorial](https://www.youtube.com/watch?v=dFgzHOX84xQ&ab_channel=TraversyMedia) on Youtube.

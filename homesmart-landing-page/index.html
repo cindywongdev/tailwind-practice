@@ -332,7 +332,8 @@
       <div class="grid gap-4">
         <h2 id="partners" class="text-4xl font-bold text-amber-400">Our Partners</h2>
         <!-- max-w-lg keeps the paragraph text contained in the center :) -->
-        <p class="max-w-lg">paragraph text paragraph text paragraph text paragraph text paragraph text paragraph text paragraph text paragraph text paragraph text</p>
+        <p class="max-w-lg">We've partnered with hundreds of smart home brands to help you create a smart home that fits
+          your needs and doesn't lock you in.</p>
       </div>
 
       <div class="
@@ -415,6 +416,58 @@
           <img src="./assets/partner7.svg" alt="Partner" class="h-16 w-16">
         </div>
       </div>
+    </section>
+
+    <!-- want relative here bc again the decorations are gonna be absolute -->
+    <section aria-labelledby="home" class="relative">
+      <!-- ohh we want flex-wrap reverse bc we want reg flex behavior that follows the html (text to left of image) on desktop, but reversed behavior (image on TOP of text) on mobile, when the wrap would take effect -->
+      <div class="flex flex-wrap-reverse gap-8 justify-center">
+        <!-- why do we need flex-wrap here? isn't flex col enough? -->
+        <!-- i took out flex-wrap -->
+        <!-- items-start makes sure items don't stretch out across entire screen (ex. signup button) -->
+        <!-- justify-center for large makes text VERTICALLY centered to image on desktop -->
+        <div class="flex flex-col gap-6 items-start lg:justify-center">
+          <!-- this holds 2 areas of text -->
+          <!-- again, why do i need flex-wrap and flex-col together? -->
+          <!-- i took out flex-wrap here too -->
+          <div class="border-4 border-red-500 flex  flex-col items-start gap-2">
+            <h2 class="text-4xl font-bold">Relax, you're home!</h2>
+            <p class="max-w-md">All our supported hardware includes traditional inputs so you can integrate our products into your house
+              in a way that's best for everyone.</p>
+          </div>
+
+          <a href="#" class="
+            py-2
+            px-6
+            bg-amber-400
+            dark:text-neutral-900
+            shadow-xl
+            flex
+            gap-2
+            hover:shadow-none
+            transition-shadow
+            focus:outline-none
+            focus-visible:ring-4
+            ring-neutral-900
+            rounded-md
+            ring-offset-4
+            ring-offset-white
+            dark:ring-amber-400
+            dark:ring-offset-neutral-800
+          ">
+            Download the App
+          </a>
+        </div>
+        <img src="./assets/table.png" alt="Table">
+      </div>
+
+      <!-- circle div -->
+      <div class="
+      absolute
+      "></div>
+
+      <!-- green border div -->
+      <div></div>
     </section>
   </main>
 
